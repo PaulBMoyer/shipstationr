@@ -4,7 +4,7 @@
 \alias{ss_add_tag}
 \title{Add tag to an order in ShipStation}
 \usage{
-ss_add_tag(order_number, tag_id = NULL)
+ss_add_tag(order_number = NULL, tag_id = NULL)
 }
 \arguments{
 \item{order_number}{order number (character/scalar)}
